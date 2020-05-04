@@ -1,0 +1,30 @@
+@import url("responsive.css");
+body{
+	margin: 0;
+}
+
+a{
+	color: blue;
+}
+
+.container{
+	width: 100vw;
+	height: 100vw;
+	/*f*/ont-weight: bold;
+	font-size: 20px;
+	gap:50px;
+}
+.header,.footer{
+	color:#fff;
+	grid-column-start: 1;
+	grid-column-end:4; 
+	background: #191d9cfc;
+}
+
+.header h1, .footer{
+	text-align: center;
+}
+
+.footer{
+	padding: 15px;
+}

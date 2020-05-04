@@ -1,0 +1,52 @@
+@import url("common.css");
+
+.container{
+	display: grid;
+	grid-template-columns: 70% 30%;
+	grid-template-rows: 100px 1fr 50px;
+}
+
+.blog_description{
+	margin-left: 60px;
+}
+
+.blog_description img {
+    border: 5px solid #8080804a;
+    margin-left: 100px;
+}
+
+.blog_description .post-button button{
+	background: green;
+	border:1px solid green; 
+	border-radius: 5px;
+	padding:10px;
+	color: white;
+}
+
+/* for highligh imp text of blog */
+.special-text-div{
+	border: 1px solid grey;
+	background: #80808042;
+}
+/* for highligh imp text of blog */
+
+/*for sidebar design start*/
+.about{
+	background: #da1a1a14;
+	padding: 10px 20px 10px 20px;
+	margin-right: 100px;
+	margin-bottom: 10px;
+}
+
+.similar_blog_detail .archieve{
+	background: #da1a1a14;
+	padding: 10px 20px 10px 20px;
+	margin-right: 100px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.similar_blog_detail .archieve a{
+	display: flex;
+	flex-direction: column;
+}
+/*for sidebar design end*/
